@@ -61,7 +61,7 @@ This file contains server-specific settings. This means you never will need to c
 
 ### 4. Install dependencies:  ###
 
-    : npm install
+    npm install
 
 ### 5. webpack.config.js ###
 
@@ -163,7 +163,7 @@ This file contains server-specific settings. This means you never will need to c
     import './sass/custom.scss' // path to custom sass
 
     new Vue({
-    vuetify,
+      vuetify,
     }).$mount('#app')
 
 ### 8. Create file vuetify.js on plugins folder ###
@@ -208,8 +208,8 @@ This file contains server-specific settings. This means you never will need to c
 // you need helper('html'); for the link_tag & script_tag 
 //see [helper](https://codeigniter4.github.io/userguide/helpers/) 
 
-    <?php echo link_tag('src/bundle.css?v='.$version); ?>
-    <?php echo script_tag('src/bundle.js?v='.$version); ?> 
+    <?= link_tag('src/bundle.css?v='.$version) ?>
+    <?= script_tag('src/bundle.js?v='.$version) ?> 
 
 ## What is CodeIgniter?
 
