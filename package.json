@@ -14,7 +14,7 @@
     "@babel/polyfill": "^7.8.7",
     "cssnano": "^4.1.10",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.15",
+    "vuetify": "^2.6.10",
     "webpack": "^4.42.0"
   },
   "devDependencies": {
