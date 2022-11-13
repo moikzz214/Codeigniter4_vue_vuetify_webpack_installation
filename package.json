@@ -30,7 +30,7 @@
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-vuetify": "~2.0.5",
     "css-loader": "^3.4.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   },
   "browserslist": [
     "defaults",
